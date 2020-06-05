@@ -11,7 +11,7 @@ const Track = (props) => {
                         <strong><i className="play circle icon"></i>Track: </strong>
                         {props.track.track_name}
                         <br/>
-                        <strong><i class="music icon"></i>Album: </strong>
+                        <strong><i className="music icon"></i>Album: </strong>
                         {props.track.album_name}
                     </p>
 
@@ -19,7 +19,7 @@ const Track = (props) => {
                         to={`lyrics/track/${props.track.track_id}`}
                         className="btn btn-dark btn-block"
                     >
-                        <i class="angle right icon"></i>View Lyrics
+                        <i className="angle right icon"></i>View Lyrics
                     </Link>
                 </div>
             </div>  
